@@ -1,2 +1,3 @@
-# string-processor
-Pub package for string matching utilities
+# string_processor
+
+This library contains utilities for processing strings, such as higher level functions for getting the highest matched string from given a list of strings and a string to match, as well as lower level functions such as getting the number of words matched in the given string(s). Strings can be matched taking into consideration things like article ("a", "an", and "the") and special characters. There are also utility functions to aid in parsing strings, such as removing special characters around the words in a string.
